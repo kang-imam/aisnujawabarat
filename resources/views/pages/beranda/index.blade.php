@@ -1,0 +1,12 @@
+@extends('layouts.app')
+@section('title', 'AISNU Jawa Barat | Perlindungan Santri dan Pesantren Aman')
+@section('meta_description', 'Website resmi AISNU Jawa Barat untuk informasi organisasi, edukasi pencegahan kekerasan di pesantren, advokasi perlindungan santri, serta informasi Call Center Pengaduan Santri dan Rumah Aman Digital Jawa Barat.')
+@section('canonical_url', route('beranda'))
+@section('content')
+@include('pages.beranda.sections.hero')
+@include('pages.beranda.sections.komitmen')
+@include('pages.beranda.sections.agenda')
+@include('pages.beranda.sections.perlindungan')
+@include('pages.beranda.sections.informasi')
+@include('pages.beranda.sections.ajakan')
+@endsection
