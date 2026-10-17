@@ -1,84 +1,74 @@
-<section class="section-space bg-surface">
+<section id="komitmen" class="section-space bg-canvas text-ink" aria-labelledby="komitmen-title">
     <div class="container-site">
-        <div class="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start lg:gap-16">
-            <div>
-                <span class="section-eyebrow">
-                    <span class="size-1.5 rounded-full bg-brand-600"></span>
-                    Sikap dan Komitmen
-                </span>
-
-                <h2 class="section-title">
-                    Pesantren harus menjadi ruang aman bagi setiap santri.
-                </h2>
+        <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(280px,0.68fr)] lg:items-end lg:gap-16">
+            <div class="section-heading mb-0">
+                <span class="section-eyebrow">Komitmen Kami</span>
+                <h2 id="komitmen-title" class="section-title text-brand-800 dark:text-brand-900">Menjaga Martabat Santri, Membangun Pesantren yang Aman.</h2>
+                <p class="section-description">Perlindungan santri bukan sekadar wacana, melainkan tanggung jawab bersama. AISNU Jawa Barat berkomitmen mendorong lingkungan pesantren yang menjunjung keselamatan, menghormati martabat manusia, dan memberi ruang bagi setiap suara untuk didengar.</p>
             </div>
-
-            <div>
-                <p class="text-base leading-8 text-muted">
-                    Pesantren memiliki peran penting dalam pendidikan, pembentukan akhlak, dan pengembangan keilmuan. Karena itu, segala bentuk kekerasan di lingkungan pesantren harus menjadi perhatian serius bersama. Kekerasan seksual, khususnya, membutuhkan upaya pencegahan, keberpihakan kepada korban, pendampingan yang tepat, dan penanganan yang bertanggung jawab.
-                </p>
-
-                <p class="mt-4 text-base leading-8 text-muted">
-                    AISNU Jawa Barat mendorong tumbuhnya kesadaran kolektif agar santri dapat belajar, bertumbuh, dan menjalani kehidupan pesantren tanpa rasa takut. Upaya perlindungan perlu melibatkan santri, pengasuh, pengelola pesantren, keluarga, masyarakat, dan pihak berwenang sesuai peran masing-masing.
-                </p>
-
-                <a href="{{ route('profil') }}" class="mt-6 inline-flex items-center gap-2 rounded-sm text-sm font-bold text-brand-700 transition hover:text-brand-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-500">
-                    Kenali AISNU Jawa Barat
-                    <x-heroicon-o-arrow-right class="size-4" aria-hidden="true" />
-                </a>
+            <div class="relative overflow-hidden rounded-card border border-brand-200/70 bg-brand-50 p-6 dark:border-brand-200/40 dark:bg-brand-50 sm:p-7">
+                <div class="absolute right-0 top-0 h-1 w-24 bg-accent" aria-hidden="true"></div>
+                <div class="flex items-start gap-4">
+                    <span class="flex size-12 shrink-0 items-center justify-center rounded-control bg-white text-brand-700 shadow-sm dark:bg-[#243b33] dark:text-brand-500">
+                        <x-heroicon-o-scale class="size-6" aria-hidden="true" />
+                    </span>
+                    <div>
+                        <p class="text-xs font-bold uppercase tracking-[0.14em] text-brand-700 dark:text-brand-500">Prinsip yang Kami Pegang</p>
+                        <p class="mt-2 text-lg font-bold leading-snug text-brand-900 dark:text-brand-900">Keselamatan, martabat, dan kepedulian harus berjalan bersama.</p>
+                        <p class="mt-3 text-sm leading-7 text-muted">Setiap upaya perlindungan perlu mengutamakan kepentingan santri, sikap yang berempati, serta langkah yang bertanggung jawab.</p>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            <article class="card card-interactive p-6 sm:p-7">
-                <span class="flex size-12 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
-                    <x-heroicon-o-shield-check class="size-6" aria-hidden="true" />
-                </span>
-
-                <h3 class="mt-5 text-xl font-bold">Pencegahan kekerasan</h3>
-
-                <p class="mt-3 text-sm leading-7 text-muted">
-                    Mendorong edukasi, peningkatan kesadaran, dan penguatan budaya saling menghormati di lingkungan pendidikan pesantren.
-                </p>
-
-                <a href="{{ route('informasi') }}" class="mt-5 inline-flex items-center gap-2 text-sm font-bold text-brand-700 hover:text-brand-900">
-                    Pelajari informasi
-                    <x-heroicon-o-arrow-right class="size-4" aria-hidden="true" />
-                </a>
+        <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:mt-14 lg:grid-cols-3">
+            <article class="card card-interactive group relative p-6 sm:p-7">
+                <div class="flex items-center justify-between">
+                    <span class="flex size-12 items-center justify-center rounded-control bg-brand-50 text-brand-700 dark:bg-brand-50 dark:text-brand-500">
+                        <x-heroicon-o-shield-check class="size-6" aria-hidden="true" />
+                    </span>
+                    <span class="text-sm font-bold tracking-[0.16em] text-brand-300 dark:text-brand-400">01</span>
+                </div>
+                <h3 class="mt-6 text-xl font-bold text-brand-800 dark:text-brand-900">Perlindungan yang Nyata</h3>
+                <p class="mt-3 text-sm leading-7 text-muted">Mendorong kesadaran, pencegahan, dan akses informasi tentang perlindungan santri agar lingkungan pendidikan menjadi tempat yang aman untuk tumbuh dan belajar.</p>
+                <div class="mt-6 h-px w-12 bg-accent transition-all duration-300 group-hover:w-20" aria-hidden="true"></div>
             </article>
-
-            <article class="card card-interactive p-6 sm:p-7">
-                <span class="flex size-12 items-center justify-center rounded-xl bg-amber-50 text-amber-700">
-                    <x-heroicon-o-heart class="size-6" aria-hidden="true" />
-                </span>
-
-                <h3 class="mt-5 text-xl font-bold">Perlindungan korban</h3>
-
-                <p class="mt-3 text-sm leading-7 text-muted">
-                    Mengedepankan keselamatan, penghormatan terhadap martabat korban, kerahasiaan informasi, dan pendampingan yang berpihak kepada korban.
-                </p>
-
-                <a href="{{ route('kontak') }}" class="mt-5 inline-flex items-center gap-2 text-sm font-bold text-brand-700 hover:text-brand-900">
-                    Informasi dan kontak
-                    <x-heroicon-o-arrow-right class="size-4" aria-hidden="true" />
-                </a>
+            <article class="card card-interactive group relative p-6 sm:p-7">
+                <div class="flex items-center justify-between">
+                    <span class="flex size-12 items-center justify-center rounded-control bg-brand-50 text-brand-700 dark:bg-brand-50 dark:text-brand-500">
+                        <x-heroicon-o-chat-bubble-left-right class="size-6" aria-hidden="true" />
+                    </span>
+                    <span class="text-sm font-bold tracking-[0.16em] text-brand-300 dark:text-brand-400">02</span>
+                </div>
+                <h3 class="mt-6 text-xl font-bold text-brand-800 dark:text-brand-900">Suara yang Dihargai</h3>
+                <p class="mt-3 text-sm leading-7 text-muted">Membangun kepedulian terhadap setiap laporan dan kebutuhan bantuan dengan mengedepankan empati, penghormatan, serta respons yang bertanggung jawab.</p>
+                <div class="mt-6 h-px w-12 bg-accent transition-all duration-300 group-hover:w-20" aria-hidden="true"></div>
             </article>
-
-            <article class="card card-interactive p-6 sm:p-7">
-                <span class="flex size-12 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
-                    <x-heroicon-o-user-group class="size-6" aria-hidden="true" />
-                </span>
-
-                <h3 class="mt-5 text-xl font-bold">Solidaritas santri</h3>
-
-                <p class="mt-3 text-sm leading-7 text-muted">
-                    Memperkuat suara santri, membangun kepedulian kolektif, dan membuka ruang kolaborasi untuk mewujudkan pesantren yang lebih aman.
-                </p>
-
-                <a href="{{ route('berita.index') }}" class="mt-5 inline-flex items-center gap-2 text-sm font-bold text-brand-700 hover:text-brand-900">
-                    Ikuti gerakan
-                    <x-heroicon-o-arrow-right class="size-4" aria-hidden="true" />
-                </a>
+            <article class="card card-interactive group relative p-6 sm:p-7 sm:col-span-2 lg:col-span-1">
+                <div class="flex items-center justify-between">
+                    <span class="flex size-12 items-center justify-center rounded-control bg-brand-50 text-brand-700 dark:bg-brand-50 dark:text-brand-500">
+                        <x-heroicon-o-user-group class="size-6" aria-hidden="true" />
+                    </span>
+                    <span class="text-sm font-bold tracking-[0.16em] text-brand-300 dark:text-brand-400">03</span>
+                </div>
+                <h3 class="mt-6 text-xl font-bold text-brand-800 dark:text-brand-900">Kolaborasi dan Kepedulian</h3>
+                <p class="mt-3 text-sm leading-7 text-muted">Mengajak keluarga, pengelola pesantren, masyarakat, dan berbagai pihak untuk membangun budaya saling menjaga serta memperkuat upaya perlindungan santri.</p>
+                <div class="mt-6 h-px w-12 bg-accent transition-all duration-300 group-hover:w-20" aria-hidden="true"></div>
             </article>
+        </div>
+        <div class="mt-8 flex flex-col gap-5 rounded-card border border-line bg-surface p-5 shadow-card sm:flex-row sm:items-center sm:justify-between sm:p-7 lg:mt-10">
+            <div class="flex items-start gap-4">
+                <span class="flex size-11 shrink-0 items-center justify-center rounded-full bg-accent-light text-warning dark:bg-accent-light dark:text-warning">
+                    <x-heroicon-o-heart class="size-5" aria-hidden="true" />
+                </span>
+                <div>
+                    <h3 class="text-base font-bold text-brand-800 dark:text-brand-900">Pesantren aman dimulai dari kepedulian bersama.</h3>
+                    <p class="mt-1 text-sm leading-6 text-muted">Kenali informasi perlindungan santri dan langkah yang dapat dilakukan.</p>
+                </div>
+            </div>
+            <a href="{{ route('informasi') }}" class="btn btn-outline w-full shrink-0 sm:w-auto">
+                Pelajari Informasi
+                <x-heroicon-o-arrow-right class="size-4" aria-hidden="true" />
+            </a>
         </div>
     </div>
 </section>

@@ -9,4 +9,4 @@
 @include('pages.beranda.sections.perlindungan')
 @include('pages.beranda.sections.informasi')
 @include('pages.beranda.sections.ajakan')
-@endsection
+@endsection 
