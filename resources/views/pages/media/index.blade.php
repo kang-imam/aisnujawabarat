@@ -1,12 +1,7 @@
-
 @extends('layouts.app')
-
 @section('title', 'Media AISNU Jawa Barat | Galeri Foto dan Video')
-
 @section('meta_description', 'Jelajahi galeri media AISNU Jawa Barat yang memuat dokumentasi foto, video, dan kegiatan seputar perlindungan santri, pesantren, program organisasi, dan kolaborasi.')
-
 @section('canonical_url', route('media'))
-
 @section('content')
     @include('pages.media.sections.hero')
     @include('pages.media.sections.foto')
