@@ -1,4 +1,7 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+@import "./pages/pesantren.css";
+
 @custom-variant dark (&:where(.dark, .dark *));
 @source "../views/**/*.blade.php";
 @source "../js/**/*.js";

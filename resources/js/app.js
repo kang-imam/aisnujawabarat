@@ -1,4 +1,5 @@
 import Alpine from 'alpinejs';
+import './pages/pesantren-map.js';
 window.Alpine = Alpine;
 Alpine.data('siteNavigation', () => ({
     mobileMenuOpen: false,
